@@ -1,0 +1,43 @@
+{
+  "name": "dreamingai-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for DreamingAI - Enterprise AI Assistant & Intelligent Collaboration Platform",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "dreamingai-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitcoffee-os/dreamingai"
+  },
+  "homepage": "https://github.com/gitcoffee-os/dreamingai",
+  "keywords": [
+    "mcp",
+    "dreamingai",
+    "ai-assistant",
+    "model-context-protocol",
+    "enterprise-ai",
+    "multi-agent",
+    "collaboration"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
