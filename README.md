@@ -38,7 +38,7 @@ If you use Claude Desktop, follow these steps:
   "mcpServers": {
     "dreamingai": {
       "command": "npx",
-      "args": ["-y", "dreamingai-mcp-server"],
+      "args": ["-y", "@shivanshu814/dreamingai-mcp-server"],
       "env": {
         "DREAMINGAI_API_KEY": "YOUR_ACTUAL_API_KEY_HERE",
         "DREAMINGAI_BASE_URL": "https://dreamingai.exmay.com"
