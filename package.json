@@ -1,6 +1,6 @@
 {
   "name": "dreamingai-mcp-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for DreamingAI - Enterprise AI Assistant & Intelligent Collaboration Platform",
   "type": "module",
   "main": "dist/index.js",
@@ -19,9 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gitcoffee-os/dreamingai"
+    "url": "https://github.com/shivanshu814/dreamingai-mcp-server"
   },
-  "homepage": "https://github.com/gitcoffee-os/dreamingai",
+  "homepage": "https://github.com/shivanshu814/dreamingai-mcp-server",
   "keywords": [
     "mcp",
     "dreamingai",
